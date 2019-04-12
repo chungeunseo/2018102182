@@ -6,10 +6,10 @@ int main()
 {
 	int count = 1;
 
-	while (count != 9)
+	while (count != 10)
 	{
 		cout << count << "´Ü" << endl;
-		for (int i = 1; i < 10; i++)
+		for (int i = 1; i <= 10; i++)
 		{
 			cout << count << "x" << i << "=" << count * i << endl;
 		}
